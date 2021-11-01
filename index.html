@@ -4,179 +4,304 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/stylesheets/reset.css">
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
   <title>Responsive Design</title>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="brand"></div>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <nav class="nav even">
+      <div class="nav-brand brand"></div>
+      <ul class="nav-items">
+        <li>Home</li>
+        <li>News</li>
+        <li>Events</li>
+        <li>Programs</li>
+        <li>Spaces</li>
+        <li>Partner with us</li>
       </ul>
       <div class="newsletters"></div>
     </nav>
-    <div class="banner">
-      <a href="#">
-        <p>Bigger, Bolder, Better conference</p>
-      </a>
-    </div>
-  </header>
-  <section>
-    <header>
-      <div class="brand large"></div>
-      <h1 class="slogan">The heart of Tech</h1>
-    </header>
     <a href="#">
-      <article class="article-block"></article>
-    </a><a href="#">
-      <article class="article-block"></article>
-    </a><a href="#">
-      <article class="article-block"></article>
-    </a><a href="#">
-      <article class="article-block"></article>
-    </a><a href="#">
-      <article class="article-block"></article>
+    <div class="banner bg-notification">
+        <p>Bigger, Bolder, Better conference</p>
+      </div>
     </a>
+  </header>
+  <section class="article">
+    <div class="article-header-container">
+      <header class="article-header">
+        <div class="brand large"></div>
+        <h1 class="slogan">The heart of Tech</h1>
+      </header>
+    </div>
+    <div class="article-block-container">
+      <a href="#" class="article-block block-1">
+        <article></article>
+      </a><a href="#" class="article-block block-2">
+        <article></article>
+      </a><a href="#" class="article-block block-3">
+        <article></article>
+      </a><a href="#" class="article-block block-4">
+        <article></article>
+      </a>
+      <div class="ticket-block">
+        <a href="#" class="block-5">
+          <article></article>
+        </a>
+      </div>
+    </div>
   </section>
   <div class="separator"></div>
   <section>
-    <a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a><a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a><a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a><a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a><a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a><a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a><a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a><a href="#">
-      <article class="story-block">
-        <div class="story-img"></div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="story-timestamp">x hours ago</p>
-      </article>
-    </a>
-    <a href="#">
-      <span class="more">
-        <p>All news</p>
-      </span>
-    </a>
+    <header class="title-container">
+      <h2>Popular articles today</h2>
+    </header>
+    <ul class="suggestion-list">
+      <li>
+        <a href="#">
+          <span class="digit">1</span>
+          <p class="suggestion">Lorem something or other</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="digit">2</span>
+          <p class="suggestion">The next Lorem in this list</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="digit">3</span>
+          <p class="suggestion">The third Lorem Ipsum in this list</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="digit">4</span>
+          <p class="suggestion">Wow this is the fourth Lorem in this list</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="digit">5</span>
+          <p class="suggestion">Foo -- finally a Foo in this list of Lorems</p>
+        </a>
+      </li>
+    </ul>
   </section>
-  <section class="separator">
-    <section>
-      <a href="#">
-        <article class="explore-block">
-          <div class="title-block"></div>
-          <p></p>
+  <section>
+    <div class="story-header-wrapper">
+      <header>
+        <h2>Latest Stories</h2>
+      </header>
+    </div>
+    <div class="grid story">
+      <a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
         </article>
-      </a><a href="#">
-        <article class="explore-block">
-          <div class="title-block"></div>
-          <p>This text is just filler text, designed to span two lines.</p>
+      </a><a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
         </article>
-      </a><a href="#">
-        <article class="explore-block">
-          <div class="title-block"></div>
-          <p>This text is just filler text, designed to span two lines.</p>
+      </a><a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
         </article>
-      </a><a href="#">
-        <article class="explore-block">
-          <div class="title-block"></div>
-          <p>This text is just filler text, designed to span two lines.</p>
+      </a><a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
         </article>
-      </a><a href="#">
-        <article class="explore-block">
-          <div class="title-block"></div>
-          <p>This text is just filler text, designed to span two lines.</p>
+      </a><a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
+        </article>
+      </a><a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
+        </article>
+      </a><a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
+        </article>
+      </a><a href="#" class="story-block">
+        <article>
+          <div class="story-img"></div>
+          
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <p class="story-timestamp">x hours ago</p>
+        </article>
+    </div>
+    </a>
+    <div class="suggestion-container">
+      <button href="#" class="button-suggest">
+        <span class="more">
+          <p class="suggestion">All news</p>
+        </span>
+      </button>
+    </div>
+  </section>
+  <section class="large">
+    <section class="explore-container">
+      <a href="#" class="explore-block">
+       <article>
+          <div class="title-block">
+            <p>This text is just filler text, designed to span multiple lines.</p>
+          </div>
+        </article>
+      </a><a href="#" class="explore-block">
+        <article>
+          <div class="title-block">
+            <p>This text is just filler text, designed to span multiple lines.</p>
+          </div>
+        </article>
+      </a><a href="#" class="explore-block">
+        <article>
+          <div class="title-block">
+            <p>This text is just filler text, designed to span multiple lines.</p>
+          </div>
+        </article>
+      </a><a href="#" class="explore-block">
+        <article>
+          <div class="title-block">
+            <p>This text is just filler text, designed to span multiple lines.</p>
+          </div>
+        </article>
+      </a><a href="#" class="explore-block">
+        <article>
+          <div class="title-block">
+            <p>This text is just filler text, designed to span multiple lines.</p>
+          </div>
+        </article>
+      </a><a href="#" class="explore-block">
+        <article>
+          <div class="title-block">
+            <p>This text is just filler text, designed to span multiple lines.</p>
+          </div>
+        </article>
+      </a><a href="#" class="explore-block">
+        <article>
+          <div class="title-block">
+            <p>This text is just filler text, designed to span multiple lines.</p>
+          </div>
         </article>
       </a>
     </section>
     <section class="hero neo-theme">
       <h1 class="hero-header">Quirky title goes here</h1>
-      <p>Subscribe to this <a href="#">swanky tech info</a> or check out other<a href="#">tech news</a></p>
-      <input type="email" name="" id="">
-      <button></button>
+      <p>Subscribe to this <a href="#">swanky tech info</a> or check out other <a href="#">tech news</a> and ignore this section's alignment!</p>
+      <form action="" class="subscription-form">
+        <input type="email" name="user-email" id="user_email" placeholder="user@email.com">
+        <button class="button-neo-theme">Subscribe</button>
+      </form>
       <div class="icons"></div>
     </section>
     <section>
-      <h1 class="video-heading">Watch (but not really) these cool things</h1>
-      <div class="video-grid">
-        <div class="main-video"></div>
+      <header class="video-header-wrapper">
+        <h1 class="video-heading">Watch (but not really) these cool things</h1>
+      </header>
+      <div class="video-container">
+        <div class="main-video-container">
+          <div class="main-video-wrapper">
+            <div class="video-block"></div>
+          </div>
+        </div>
         <ul class="video-list">
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
+          <li class="small-video-container">
+            <div class="small-video-wrapper"></div>
+          </li>
         </ul>
       </div>
     </section>
   </section>
   <section>
-    <article>
-      <p class="neo-text">Reach your goals</p>
-      <h2>Work with us</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Tempore hic voluptatibus porro dolores exercitationem non perspiciatis voluptatum laborum!
-        Perspiciatis nihil unde, sint nulla porro dolores culpa placeat asperiores voluptatem cumque.
-      </p>
-      <button>Get in touch</button>
-    </article>
-    <div class="media-container">
-      <div class="icon">
-        <p>Media</p>
-      </div>
-      <div class="icon">
-        <p>Events</p>
-      </div>
-      <div class="icon">
-        <p>Spaces</p>
-      </div>
-      <div class="icon">
-        <p>Programs</p>
+    <div class="careers-container">
+      <article class="careers-content">
+        <p class="neo-text">Reach your goals</p>
+        <h2>Work with us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Tempore hic voluptatibus porro dolores exercitationem non perspiciatis voluptatum laborum!
+          Perspiciatis nihil unde, sint nulla porro dolores culpa placeat asperiores voluptatem cumque.
+        </p>
+        <button>Get in touch</button>
+      </article>
+      <div class="media-container">
+        <div class="media-icon-wrapper">
+          <div class="media-icon">
+          </div>
+          <p>Media</p>
+        </div>
+        <div class="media-icon-wrapper">
+          <div class="media-icon">
+          </div>
+          <p>Events</p>
+        </div>
+        <div class="media-icon-wrapper">
+          <div class="media-icon">
+          </div>
+          <p>Spaces</p>
+        </div>
+        <div class="media-icon-wrapper">
+          <div class="media-icon">
+          </div>
+          <p>Programs</p>
+        </div>
       </div>
     </div>
-    <div class="banner"></div>
+    <div class="icons m0a"></div>
   </section>
   <footer>
-    <div class="links-container">
+    <div class="list-container">
       <div class="block"></div>
     </div>
     <div class="list-container">
